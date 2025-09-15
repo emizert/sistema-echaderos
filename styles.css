@@ -40,6 +40,18 @@ body {
     background-color: #ffc107;
 }
 
+.estado-success {
+    background-color: #28a745;
+}
+
+.estado-danger {
+    background-color: #dc3545;
+}
+
+.estado-warning {
+    background-color: #ffc107;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -87,4 +99,14 @@ input:checked + .slider:before {
 
 footer {
     margin-top: auto;
+}
+
+.table th {
+    border-top: none;
+    background-color: #f1f1f1;
+}
+
+.status-badge {
+    font-size: 0.85rem;
+    padding: 0.35em 0.65em;
 }

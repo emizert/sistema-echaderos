@@ -81,7 +81,8 @@ function obtenerTextoEstado(estado, tipo) {
                estado === 'apagado' ? 'Vacío' : 
                'Automático';
     } else if (tipo === 'luces') {
-        return estado === 'encendido' ? 'Encendido' : 
+        return estado === 'encendido'
+                return estado === 'encendido' ? 'Encendido' : 
                estado === 'apagado' ? 'Apagado' : 
                'Automático';
     } else {
